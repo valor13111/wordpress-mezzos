@@ -350,6 +350,7 @@ get_header(); ?>
 						<div class="spacing"></div>
 						<!-- /Latest Events Calendar -->
 
+						<h2 class="title home-title wow fadeInUp"> Our Location </h2>
 						<?php
 						//$eightmedi_lite_google_map_iframe = get_theme_mod('eightmedi_lite_google_map_iframe');
 						$eightmedi_lite_contact_address = esc_html(get_theme_mod('eightmedi_lite_contact_address'));
