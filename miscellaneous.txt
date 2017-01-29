@@ -1,0 +1,146 @@
+<div class="ctr">Martini's</div>
+<div class="dropdown"><button class="dropbtn">Honey Bun</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Cinnabun Vodka</li>
+ 	<li>Honey Bourbon</li>
+ 	<li>Sour Mix</li>
+ 	<li>rimmed with cinnamon sugar</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Chocolate</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Godiva Chocolate Vodka</li>
+ 	<li>Creme de Cocoa</li>
+ 	<li>heavy cream with a dash of Triple Sec</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Buttercream Bling</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Cake Vodka</li>
+ 	<li>Buttershots</li>
+ 	<li>rimmed with coconut</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Key Lime Pie</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Vanilla Vodka</li>
+ 	<li>Simple Syrup</li>
+ 	<li>Dash of Lime Juice</li>
+ 	<li>Heavy Cream</li>
+ 	<li>rimmed with wafers</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Electric Watermelon Slide</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Rainbow Sherbert Vodka</li>
+ 	<li>Watermelon Schnapps</li>
+ 	<li>Sour Mix</li>
+ 	<li>garnish with a cherry</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Pineapple Upside Down Cake</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Vanilla Vodka</li>
+ 	<li>Pineapple Juice</li>
+ 	<li>splash of grenadine</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Ruby Slippers</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Rainbow Sherbert Vodka</li>
+ 	<li>Cake Vodka</li>
+ 	<li>Half &amp; Half</li>
+ 	<li>rimmed with red sprinkles</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Cocoa Loco</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Chocolate Whipped Vodka</li>
+ 	<li>Coconut Rum</li>
+ 	<li>Heavy Cream</li>
+ 	<li>Chocolate Syrup</li>
+ 	<li>rimmed with shaved coconut</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Clear Sailing</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Orange Whipped Vodka</li>
+ 	<li>Blue Curacao</li>
+ 	<li>Pineapple Juice</li>
+ 	<li>garnished with fruit</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Chocolate Mint Cake</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Cake Vodka</li>
+ 	<li>Chocolate Liqueur</li>
+ 	<li>Mint Liqueur</li>
+ 	<li>Half &amp; Half</li>
+ 	<li>rimmed with chocolate syrup</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">The Sunshine State</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Whipped Vodka</li>
+ 	<li>Pineapple Juice</li>
+ 	<li>Orange Juice</li>
+ 	<li>garnish with an orange wedge</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Mello-Machiato</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Marshmallow Vodka</li>
+ 	<li>Creme de Cacao</li>
+ 	<li>Kamora Coffe Liqueur</li>
+ 	<li>Half &amp; Half</li>
+ 	<li>garnish with a cherry</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Pucker Up!</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Cotton Candy Vodka</li>
+ 	<li>Sour Apple Schnapps</li>
+ 	<li>Lemonade</li>
+ 	<li>garnish with a lemon wedge</li>
+</ul>
+</div>
+</div>
+<div class="dropdown"><button class="dropbtn">Red Velvet Cake</button>
+<div class="dropdown-content">
+<ul>
+ 	<li>Cake Vodka</li>
+ 	<li>Creme de Cocoa</li>
+ 	<li>Splash Grenadine</li>
+ 	<li>rimmed with vanilla icing</li>
+</ul>
+</div>
+</div>
+<div class="ctr">Beer on Tap</div>
+<div class="ctr">Bottled Beer</div>
+<div class="ctr">Red Wines</div>
+<div class="ctr">White Wines</div>

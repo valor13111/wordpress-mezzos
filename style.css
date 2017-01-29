@@ -1,0 +1,251 @@
+/*
+Theme Name: Eightmedi Lite Child
+Theme URI: https://8degreethemes.com/wordpress-themes/eightmedi-lite/
+Author: 8Degree Themes
+Author URI: https://8degreethemes.com/
+Description: Child Theme for Eightmedi Lite
+Version: 1.0
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: eightmedi-lite-child
+Tags: one-column,two-columns,three-columns,left-sidebar,right-sidebar,grid-layout,flexible-header,custom-background,custom-logo,featured-image-header,footer-widgets,full-width-template,threaded-comments,theme-options,e-commerce
+Template: eightmedi-lite
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+EightMedi Lite is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+# dropdown menu
+	--------------------------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+
+/*--------------------------------------------------------------
+# Footer
+----------------------------------------------------------------*/
+
+.footer-social a {
+  color: var(--airship);
+}
+
+.footer-social a:hover {
+  color: var(--silver-plating);
+  background: var(--airship);
+}
+
+.footer-social a::after {
+  border-top: 2px solid var(--flywheel);
+}
+
+.main-footer {
+  background: var(--airship);
+}
+
+#es-top::after {
+  color: white;
+}
+
+#es-top:hover:after {
+  color: var(--woodmarking);
+}
+
+.footer-wrap {
+  background: var(--airship) none repeat scroll 0 0;
+}
+
+.fdm-item-panel .fdm-item-title {
+  font-weight: normal !important;
+  color: white !important;
+}
+
+/*--------------------------------------------------------------
+# Space Between Slider and Featured Sections
+----------------------------------------------------------------*/
+
+.bx-wrapper {
+  margin: auto;
+}
+
+
+h1.page-title, .sidebar .widget-title {
+	background: var(--airship);
+  color: white;
+}
+
+h1.page-title:after, .sidebar .widget-title:after {
+	border-bottom: 15px solid var(--flywheel);
+	border-left: 15px solid transparent;
+}
+
+.edit-link a, .reply a, .entry-footer .edit-link a, .entry-footer .reply a {
+	background: var(--airship);
+	color: #fff;
+	border: 1px solid transparent;
+	box-shadow: 0 0 0 0 var(--airship);
+}
+
+.edit-link a:hover, .reply a:hover, .entry-footer .edit-link a:hover, .entry-footer .reply a:hover, .entry-footer span a.post-edit-link:hover {
+	border-color: #fff;
+	box-shadow: 0 0 0 5px var(--airship);
+}
+
+/*--------------------------------------------------------------
+# Featured Block Colors 1 - 5
+----------------------------------------------------------------*/
+
+.featured-block {
+	float: left;
+	width: 20%;
+	background: var(--cog);
+	vertical-align: top;
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+	min-height: 280px;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	transition: all ease 0.4s;
+	-webkit-transition: all ease 0.4s;
+}
+.featured-block.featured-post-2, .featured-block.featured-post-4 {
+	background: var(--airship);
+}
+.featured-block.featured-post-3 {
+	background: var(--steam-whistle);
+}
+
+/*--------------------------------------------------------------
+# Lunch Specials
+----------------------------------------------------------------*/
+
+h2 {
+	font-size: 80px;
+	line-height: 70px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.lunch_special_item_container {
+  color: var(--steam-whistle);
+	background-color: white;
+	height: 200px;
+	width: 400px;
+	margin: 100px auto;
+	border: 3px dashed #21303b;
+
+	/*shadow*/
+	-webkit-box-shadow: 10px 10px 10px #000;
+	-moz-box-shadow: 10px 10px 10px #000;
+	box-shadow: 10px 10px 10px #000;
+
+	/*rounded corners*/
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#lunch_special_price {
+  color: var(--steam-whistle);
+  font-style: normal;
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+.lunch_special_description_container {
+  color: var(--steam-whistle);
+  font-style: italic;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.lunch_special_description_container ul {
+  text-align: left;
+}
+
+/*--------------------------------------------------------------
+# Events / Latest News Top-Left Corner Date
+----------------------------------------------------------------*/
+
+.latest-news .news-date {
+  background: var(--cog) none repeat scroll 0 0;
+  color: white;
+}
+
+.latest-news figure.news-image:hover .news-date {
+  background: var(--woodmarking) none repeat scroll 0 0;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# View More Events / Latest News Home Page Button
+----------------------------------------------------------------*/
+
+a.btn {
+  background: #cc444d;
+}
+
+a.btn:hover {
+  background: #b2363f;
+  box-shadow: 0 0 0 5px #b2363f;
+}
+
+.latest-news a:after {
+  border-bottom: 0px;
+}
+
+
+.mc-main {
+  margin: 25px 0 50px 0 !important;
+}
+
+.mc-main .details img {
+  width: auto;
+}
+
+hr {
+  border: 4px solid var(--woodmarking);
+}
+
+/*--------------------------------------------------------------
+# Variables
+----------------------------------------------------------------*/
+
+:root {
+  --silver-plating: #B5B5B5;
+  --flywheel:       #838383;
+  --airship:        #313131;
+  --woodmarking:    #997744;
+  --steam-whistle:  #505050;
+  --cog:            #171717;
+}
