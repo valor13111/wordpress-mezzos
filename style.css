@@ -82,8 +82,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 
 .fdm-item-panel .fdm-item-title {
-  font-weight: normal !important;
-  color: white !important;
+  font-weight: bold !important;
+  color: var(--steam-whistle) !important;
+}
+
+.widget ul li a {
+  font-style: italic;
+  font-weight: bold;
+  color: var(--woodmarking);
 }
 
 /*--------------------------------------------------------------
@@ -140,6 +146,11 @@ h1.page-title:after, .sidebar .widget-title:after {
 }
 .featured-block.featured-post-3 {
 	background: var(--steam-whistle);
+  color: white;
+}
+
+.featured-block.featured-post-3 a {
+  color: white;
 }
 
 /*--------------------------------------------------------------
